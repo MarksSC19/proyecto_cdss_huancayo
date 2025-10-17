@@ -1,0 +1,37 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datos (si no quieres versionar los datos crudos o procesados)
+data/processed/
+data/raw/
+
+# Modelos entrenados
+models/*.pkl
+
+# Cuadernos de Jupyter
+notebooks/
+.ipynb_checkpoints
+
+# Reportes generados
+reports/
+
+# Configuracion de Streamlit
+.streamlit/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuracion de IDEs
+.idea/
+.vscode/
+*.swp
