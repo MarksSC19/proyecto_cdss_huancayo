@@ -1,22 +1,23 @@
 # Núcleo de análisis y visualización
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-plotly>=5.11.0
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.6.3
+seaborn==0.12.2
+plotly==5.11.0
 
 # Modelado y machine learning
-scikit-learn>=1.2.0
-xgboost>=1.7.0
-lightgbm>=3.3.0
-imbalanced-learn>=0.10.0
+scikit-learn==1.2.2
+xgboost==1.7.6
+lightgbm==3.3.5
+imbalanced-learn==0.10.1
 
 # Interpretabilidad de modelos
-shap>=0.41.0
-lime>=0.2.0
+shap==0.45.0
+lime==0.2.0.1
 
 # Despliegue interactivo
-streamlit>=1.20.0
+streamlit==1.22.0
+fpdf2==2.7.4
 
 # Utilidades
 joblib>=1.2.0
